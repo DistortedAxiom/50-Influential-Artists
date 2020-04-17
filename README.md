@@ -25,10 +25,26 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. How would you describe preprocessing to someone new to CSS?
+
+Preprocessing utilizes css processors such as "Less" to allow us to extend the capabilities of CSS and do things that it couldn't do by default.
+They allow us to use logic in our CSS code such as variables, nesting, mixin functions as well as mathematical operations. This allows us to reuse our code, make changes easily
+and make it easier to scale our website.
+
 2. What is your favorite concept in preprocessing? What is the concept that gives you the most trouble?
+
+My favorite concept in preprocessing is the usage of variables and mixin. I am still struggling with utilizing pseudo-selectors for mixins.
+
 3. How would you explain the concept of a variable to someone new to programming?
+
+Variables can be seen as a container that store data values. This allow the value to be accessed by other elements in the program.
+
 4. What is the purpose of using functions in code?
+
+Functions allow us to create reuseable code, once we created a function, it can be used as many as needed. It also allow us to make changes to existing code easily as well as provide abstraction, the function can tell us what it does, what arguments it have and what it will return.
+
 5. What is a JSON data?
+
+JSON is a format for storing and expressing information. It provide human-readable data that can be accessed in a logical manner as well as to transmit this data through means such as web applications.
 
 You may need to look up an answer but, you are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -68,7 +84,7 @@ Follow these steps to set up your project:
 7.cta.less
 ```
 
-_You will know everything is working properly when you see the styles enabled for the provided content._  
+_You will know everything is working properly when you see the styles enabled for the provided content._
 
 #### Home Page - Desktop HTML & LESS
 

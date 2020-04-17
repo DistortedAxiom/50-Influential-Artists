@@ -1,0 +1,32 @@
+.flex-center() {
+    display: flex;
+    justify-content: center;
+}
+
+.img-size() {
+    height: 50%;
+    width: 100%;
+
+    @media @mobile {
+        height: 150px;
+        width: 150px;
+        padding-left: 1.5;
+    }
+
+}
+
+.img-hover() {
+    opacity: 80%;
+}
+
+.contact-button(@color: black, @width, @padding: 0.8rem) {
+    color: @color;
+    border-radius: 0.8rem;
+    font-size: 1rem;
+    width: @width;
+    margin-top: 1rem;
+    padding: @padding;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    cursor: pointer;
+}

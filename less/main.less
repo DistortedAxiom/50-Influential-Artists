@@ -1,0 +1,74 @@
+html, body {
+    @media @mobile {
+        max-width: 500px;
+    }
+}
+
+.title-container {
+
+    .flex-center();
+    flex-direction: column;
+    background-image: url(../assets/home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: auto;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    height: 30rem;
+    width: 50%;
+    margin-left: 25%;
+    margin-bottom: 2%;
+
+    @media @mobile {
+        margin: auto 0;
+        margin-bottom: 5vh;
+        width: 100vw
+    }
+
+    h1 {
+        font-size: 3.5rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    button {
+        .contact-button(black, fit-content);
+    }
+}
+
+.artists-container {
+    border-top: 1px solid black;
+    padding-top: 2.5rem;
+    margin-left: 20%;
+    margin-right: 20%;
+    .flex-center();
+
+    @media @mobile {
+        margin: 0 auto;
+        max-width: 500px;
+    }
+
+    .artist {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        width: 100%;
+        padding-left: 4rem;
+
+        @media @mobile {
+            padding-left: 2rem;
+            width: 50%;
+        }
+
+        img {
+            .img-size();
+        }
+
+    }
+}
+
+img:hover {
+    .img-hover();
+}
